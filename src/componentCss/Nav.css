@@ -1,0 +1,98 @@
+nav {
+    display: flex;
+    padding: 10px 20px;
+    justify-content: space-between;
+    background-color: red;
+    position: relative;
+    height: 50px;
+}
+
+.logoSection {
+    display: flex;
+    align-items: center;
+}
+
+.logoSection img {
+    margin-right: 1rem;
+    margin-right: 1rem;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem
+}
+
+.logoSection h2 {
+    font-size: 1rem;
+}
+
+.searchSection {
+    display: flex;
+    align-items: center;
+}
+
+.appLogo {
+    cursor: pointer;
+}
+
+.searchSection input {
+    width: 10rem;
+    border-radius: 5px;
+    padding: 5px;
+    border: 0px;
+    outline: none;
+    margin-right: 8px;
+}
+
+.searchIcon {
+    font-size: 1.7rem;
+    cursor: pointer;
+}
+
+#countryNames {
+    padding: 2px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+    cursor: pointer;
+    margin-left: 5px;
+    color: white;
+    z-index: 1
+}
+
+#countryNames * {
+    color: black;
+    padding: 10px;
+}
+
+.Menu {
+    font-size: 28px;
+    cursor: pointer;
+    display: none;
+}
+
+@media screen and (max-width:550px) {
+    .searchSection input {
+        width: 5rem;
+    }
+
+    #countryNames {
+        width: 5rem;
+        position: absolute;
+        top: 5rem;
+        left: 4px;
+        color: black;
+        border: 2px solid black;
+    }
+
+    .showDropDown {
+        display: block;
+    }
+
+    .hideDropDown {
+        display: none;
+    }
+
+    .Menu {
+        display: block;
+        margin-right: 10px;
+    }
+}

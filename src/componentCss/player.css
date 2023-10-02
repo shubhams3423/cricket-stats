@@ -1,0 +1,24 @@
+.mainPlayerContainer {
+    width: 14rem;
+    padding: 1rem;
+    box-shadow: rgb(52 69 86 / 34%) 0px 8px 26px;
+    border-radius: 1rem;
+    margin: auto;
+    min-height: 14rem;
+    color: black;
+}
+
+.playerContainer h1 {
+    margin: 0px;
+    font-size: 20px;
+}
+
+.playerContainer h2 {
+    margin: 0px;
+    font-size: 18px;
+}
+
+.playerContainer p {
+    margin: 0px;
+    font-size: 17px;
+}
