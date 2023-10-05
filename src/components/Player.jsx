@@ -7,10 +7,13 @@ const Player = ({ player }) => {
         <div className="imgContainer">
           <img src={player.image} alt="" className="playerImg" />
         </div>
-        <h1>Name :{player.name}</h1>
-        <h2>Age :{player.age}</h2>
-        <h2>Role :{player.Role}</h2>
-        <p>High Score :{player.high_score}</p>
+        <h1> {player.name}</h1>
+        <div className="countryContainer">
+          <p className="country_name"> {player.country}</p>
+          <div className="logoContainer">
+            <img src={player.country_logo} alt="" className="country_logo" />
+          </div>
+        </div>
       </div>
     </div>
   );

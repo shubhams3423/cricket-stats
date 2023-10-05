@@ -28,19 +28,23 @@ main {
 .playersSection {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.8rem;
-  padding: 3rem;
+  gap: 1.3rem;
+  padding: 2rem;
 }
 
 .playerContainer {
   display: flex;
   flex-direction: column;
   gap: 10px;
-
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:540px) {
   main {
     position: unset;
+  }
+
+  .playersSection {
+    gap: 10px;
+    padding: 1.2rem;
   }
 }
