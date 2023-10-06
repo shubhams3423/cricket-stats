@@ -1,0 +1,55 @@
+.mainPlayerContainer {
+    width: 9rem;
+    padding: 1rem;
+    box-shadow: rgb(144 150 157 / 34%) 5px 5px 30px;
+    border-radius: 1rem;
+    margin: auto;
+    min-height: 10rem;
+    color: black;
+    cursor: pointer;
+}
+
+.playerContainer h1 {
+    margin: 0px;
+    font-size: 16px;
+    color: #292828;
+}
+
+.playerContainer h2 {
+    margin: 0px;
+    font-size: 16px;
+    color: #292828;
+}
+
+.playerContainer p {
+    margin: 0px;
+    font-size: 16px;
+    color: #292828;
+}
+
+.countryContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoContainer {
+    height: 23px;
+    width: 33px;
+}
+
+.country_name {
+    margin-bottom: 5px;
+}
+
+.country_logo {
+    height: 100%;
+    width: 100%;
+}
+
+@media screen and (max-width:660px) {
+    .mainPlayerContainer {
+        width: 8rem;
+        margin: auto;
+    }
+}
