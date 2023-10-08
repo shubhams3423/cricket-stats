@@ -1,0 +1,77 @@
+.emptyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: black;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.searchContainer {
+    height: 9rem;
+    width: 9rem;
+}
+
+.searchContainer img {
+    height: 100%;
+    width: 100%;
+}
+
+.clearFilter {
+    color: #4343cc;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.Textmessage {
+    text-align: center;
+    color: rgb(104, 103, 103);
+    letter-spacing: 0.5px;
+    margin: 0px;
+}
+
+.notFoundText {
+    font-size: 20px;
+    font-weight: 600;
+    color: #3a3838;
+    letter-spacing: 0.5px;
+    margin: 10px 0px;
+}
+
+.checkBoxMainContainer {
+    width: 8rem;
+    margin: auto;
+    gap: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    margin-top: 12px;
+}
+
+.checkContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.checkContainer label {
+    cursor: pointer;
+    letter-spacing: 1px;
+    user-select: none;
+    color: #363434;
+}
+
+.checkContainer input {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+}
+
+@media screen and (max-width:540px) {
+    .checkBoxMainContainer {
+        margin-top: 3rem;
+        width: 7rem;
+    }
+}

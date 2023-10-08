@@ -63,6 +63,7 @@ nav {
     padding: 10px;
 }
 
+
 .Menu {
     font-size: 28px;
     cursor: pointer;
@@ -75,9 +76,13 @@ nav {
     }
 
     #countryNames {
+        width: 4rem
+    }
+
+    /* #countryNames {
         width: 5rem;
         position: absolute;
-        top: 5rem;
+        top: 5.5rem;
         left: 4px;
         color: black;
         border: 2px solid black;
@@ -94,5 +99,5 @@ nav {
     .Menu {
         display: block;
         margin-right: 10px;
-    }
+    } */
 }
