@@ -1,12 +1,12 @@
 .mainPlayerContainer {
     width: 9rem;
     padding: 1rem;
-    box-shadow: rgb(144 150 157 / 34%) 5px 5px 30px;
+    box-shadow: rgb(85 87 89 / 34%) 5px 5px 30px;
     border-radius: 1rem;
-    margin: auto;
     min-height: 10rem;
     color: black;
     cursor: pointer;
+    margin: auto;
 }
 
 .playerContainer h1 {
@@ -50,6 +50,7 @@
 @media screen and (max-width:660px) {
     .mainPlayerContainer {
         width: 8rem;
-        margin: auto;
+        margin: 0px;
     }
+
 }
