@@ -4,7 +4,6 @@ import { playerObj } from "../players";
 const Sidebar = ({ showMenu, players, setPlayers, countryName }) => {
   const [receivedObj, setReceivedObj] = useState([{}]);
   const [checkItems, setCheckItems] = useState([]);
-  console.log("cheked item", checkItems);
   const handlerCheckBoxes = (e) => {
     setReceivedObj(
       countryName === "All"
@@ -22,13 +21,11 @@ const Sidebar = ({ showMenu, players, setPlayers, countryName }) => {
         )
       );
     } else {
-      console.log(e.target.name);
       setCheckItems(
         checkItems.filter(
           (item) => item.toLowerCase() !== e.target.name.toLowerCase()
         )
       );
-      console.log("received Obj", receivedObj);
       if (receivedObj.length === 0) {
         setPlayers(receivedObj.map((item) => item));
       } else {
@@ -38,7 +35,6 @@ const Sidebar = ({ showMenu, players, setPlayers, countryName }) => {
           )
         );
       }
-      console.log("state :", receivedObj);
     }
   };
   return (
